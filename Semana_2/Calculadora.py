@@ -2,6 +2,7 @@ class calculadora:
 
   #Atributo
   botones=True
+  print("Botones = ",botones)
   color=input(str("color "))
   forma=input(str("Forma "))
   marca=input(str("Marca "))

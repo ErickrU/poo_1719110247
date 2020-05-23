@@ -8,6 +8,7 @@ class coche:
   tipodecombustible=input(str("Tipo de compustible "))
   tipodemotor=input(str("Tipo de motor "))
   tienequemacocos=False
+  print("Tiene quemacocos = ",tienequemacocos)
   empresadefacturado=input(str("Empresa de facturacion "))
   escaladeseguridad=input(str("Escala de seguridad "))
   tipodefreno=input(str("Tipo de freno "))

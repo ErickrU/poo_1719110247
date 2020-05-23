@@ -10,6 +10,7 @@ class unbanco:
   ci=input(str("Conexion internacional "))
   seguridadfinanciera=input(str("Seguridad financiera "))
   extranjero=True
+  print("Extranjero = ",extranjero)
 
   #Metodos
   def __init__(self):

@@ -9,8 +9,10 @@ class cajeroautomatico:
   material=input(str("Material "))
   ndebotones=input(str("Numero de botones "))
   pantallatactil=True
+  print("Pantalla Tactil = ",pantallatactil)
   tipodecajero=input(str("Tipo de cajero "))
   camaradeseguridad=True
+  print("Camara de seguridad = ",camaradeseguridad)
 
   #metodos
   def __init__(self):
