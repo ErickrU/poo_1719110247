@@ -39,6 +39,16 @@ while repetir == 's' or repetir == 'S' :#el gatillo para el repetir donde la con
           contadorvocal_variable += 1
         elif 'u' == i:
           contadorvocal_variable += 1
+        elif 'A' == i:
+          contadorvocal_variable += 1
+        elif 'E' == i:
+          contadorvocal_variable += 1
+        elif 'I' == i:
+          contadorvocal_variable += 1
+        elif 'O' == i:
+          contadorvocal_variable += 1
+        elif 'U' == i:
+          contadorvocal_variable += 1
         elif 'á' == i:
           contadorvocal_variable += 1
         elif 'é' == i:
@@ -48,6 +58,16 @@ while repetir == 's' or repetir == 'S' :#el gatillo para el repetir donde la con
         elif 'ó' == i:
           contadorvocal_variable += 1
         elif 'ú' == i:
+          contadorvocal_variable += 1
+        elif 'Á' == i:
+          contadorvocal_variable += 1
+        elif 'É' == i:
+          contadorvocal_variable += 1
+        elif 'Í' == i:
+          contadorvocal_variable += 1
+        elif 'Ó' == i:
+          contadorvocal_variable += 1
+        elif 'Ú' == i:
           contadorvocal_variable += 1
         elif ' ' == i:
           contadorespacio_variable += 1          
@@ -65,7 +85,6 @@ while repetir == 's' or repetir == 'S' :#el gatillo para el repetir donde la con
   obj=polindromoClase(string_variable)#creamos el objeto
   obj.comprobarMetodo() #llamar al metodo que nos dira si la cadena es polindroma
   obj.contadorMetodo() #llamar al metodo que nos dice el numero de vocales y espacios
-
 
   repetir = str(input("\n¿Desea analizar otra cadena s/n? "))#para poder repetir el programa
   if repetir == 'n' or repetir == 'N':#en caso de acabar el programa 
