@@ -39,6 +39,16 @@ while repetir == 's' or repetir == 'S' :#el gatillo para el repetir donde la con
           contadorvocal_variable += 1
         elif 'u' == i:
           contadorvocal_variable += 1
+        elif 'á' == i:
+          contadorvocal_variable += 1
+        elif 'é' == i:
+          contadorvocal_variable += 1
+        elif 'í' == i:
+          contadorvocal_variable += 1
+        elif 'ó' == i:
+          contadorvocal_variable += 1
+        elif 'ú' == i:
+          contadorvocal_variable += 1
         elif ' ' == i:
           contadorespacio_variable += 1          
         else:
@@ -48,7 +58,7 @@ while repetir == 's' or repetir == 'S' :#el gatillo para el repetir donde la con
       print('La cadena cuenta con: ',contadorespacio_variable,' espacio(s)')
 
   string_variable = input("cadena de caracteres: ")#variable global sobre la cadena que se recibe tal cual  
-  texto_variable = string_variable.lower().replace(' ','')#variable global del texto recibido pero sin espacios y todo en minusculas
+  texto_variable = string_variable.lower().replace(' ','').replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u')#variable global del texto recibido pero sin espacios y todo en minusculas y las vocales sin acento
   invertido_variable=''#declaramos la variable antes de poder usarla
   for i in texto_variable:
     invertido_variable = i + invertido_variable#aqui usamos el for para poder invertir la cadena en lugar del reverse
