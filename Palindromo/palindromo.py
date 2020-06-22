@@ -1,9 +1,3 @@
-'''Este codigo tiene como funcion realizar 
-1. Leer una cadena de texto.
-2. Imprimir si la cadenas es palindromo o no.
-3. Imprimir cuantos espacios y vocales encontro en la cadena.
-4. Preguntar si desea analizar otra cadena con el siguiente mensaje ("¿Desea analizar otra cadena s/n?: )
-5. Si la respuesta es "s" o "S" repetir el proceso, en caso contrario terminar el programa'''
 
 repetir = 's'#se le asigna valor al primer repetir para su correto funcionamiento
 while repetir == 's' or repetir == 'S' :#el gatillo para el repetir donde la condicion se cumpla 
