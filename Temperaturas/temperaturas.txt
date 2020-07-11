@@ -1,6 +1,0 @@
-La temperatura en grados centigrados es: 37.5
-La temperatura en fahrenheit es: 99.5
-La temperatura en grados centigrados es: 41.5
-La temperatura en fahrenheit es: 106.7
-La temperatura en grados centigrados es: 36.8
-La temperatura en fahrenheit es: 98.24
