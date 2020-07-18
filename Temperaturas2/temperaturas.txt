@@ -1,9 +1,0 @@
-fecha: 12/25
-Grados centigrados: 10.0
-Fahrenheit: 50.0
-fecha: 10/25
-Grados centigrados: 65.0
-Fahrenheit: 149.0
-fecha: 10
-Grados centigrados: 1.0
-Fahrenheit: 33.8
