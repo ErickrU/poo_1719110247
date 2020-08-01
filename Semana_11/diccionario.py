@@ -25,8 +25,6 @@ class diccionarioClase:
         imprimir.append(xyz)
         imprimir.append('\n')
         xyz=[]
-      else:
-        print('No hay peliculas de ese genero')
     print('Las peliculas del genero ',key,' son: \n')
     print(*imprimir)
 obj=diccionarioClase()
